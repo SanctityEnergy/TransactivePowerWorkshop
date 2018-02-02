@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+# Workshop Sign Up
 
-You can use the [editor on GitHub](https://github.com/SanctityEnergy/TransactivePowerWorkshop/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<!-- Noscript content for added SEO -->
+<noscript><a href="https://transactiverpowerworkshop.eventbrite.com" rel="noopener noreferrer" target="_blank"></noscript>
+<!-- You can customize this button any way you like -->
+<button id="eventbrite-widget-modal-trigger-42783324074" type="button">Buy Tickets</button>
+<noscript></a>Buy Tickets on Eventbrite</noscript>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 
-### Markdown
+<script type="text/javascript">
+    var exampleCallback = function() {
+        console.log('Order complete!');
+    };
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+    window.EBWidgets.createWidget({
+        widgetType: 'checkout',
+        eventId: '42783324074',
+        modal: true,
+        modalTriggerElementId: 'eventbrite-widget-modal-trigger-42783324074',
+        onOrderComplete: exampleCallback
+    });
+</script>
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/SanctityEnergy/TransactivePowerWorkshop/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
