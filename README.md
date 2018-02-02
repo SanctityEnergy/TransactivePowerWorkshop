@@ -1,6 +1,6 @@
 # Workshop Sign Up
 
-[Event page](workshop.transactivepower.com)
+[Event page](http://workshop.transactivepower.com)
 
 <div id="eventbrite-widget-container-42783324074"></div>
 
