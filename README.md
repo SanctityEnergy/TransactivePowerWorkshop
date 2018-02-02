@@ -1,5 +1,7 @@
 # Workshop Sign Up
 
+[event page](workshop.transactivepower.com)
+
 <!-- Noscript content for added SEO -->
 <noscript><a href="https://transactiverpowerworkshop.eventbrite.com" rel="noopener noreferrer" target="_blank"></noscript>
 <!-- You can customize this button any way you like -->
