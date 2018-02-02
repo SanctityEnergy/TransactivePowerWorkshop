@@ -1,12 +1,8 @@
 # Workshop Sign Up
 
-[event page](workshop.transactivepower.com)
+[Event page](workshop.transactivepower.com)
 
-<!-- Noscript content for added SEO -->
-<noscript><a href="https://transactiverpowerworkshop.eventbrite.com" rel="noopener noreferrer" target="_blank"></noscript>
-<!-- You can customize this button any way you like -->
-<button id="eventbrite-widget-modal-trigger-42783324074" type="button">Buy Tickets</button>
-<noscript></a>Buy Tickets on Eventbrite</noscript>
+<div id="eventbrite-widget-container-42783324074"></div>
 
 <script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
 
@@ -16,11 +12,13 @@
     };
 
     window.EBWidgets.createWidget({
+        // Required
         widgetType: 'checkout',
         eventId: '42783324074',
-        modal: true,
-        modalTriggerElementId: 'eventbrite-widget-modal-trigger-42783324074',
-        onOrderComplete: exampleCallback
+        iframeContainerId: 'eventbrite-widget-container-42783324074',
+
+        // Optional
+        iframeContainerHeight: 425,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
+        onOrderComplete: exampleCallback  // Method called when an order has successfully completed
     });
 </script>
-
